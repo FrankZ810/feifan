@@ -10,7 +10,7 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl
     padding: 0;
 }
 body{
-    font-family: "微软雅黑";
+    font-family: "Microsoft YaHei";
     font-size: 14px;
     background-color: #fff;
 }
@@ -53,17 +53,24 @@ a {
     width: 1000px;
     margin: 0 auto;
 }
+.gradient{
+    background: -webkit-linear-gradient(#f5f5f5, #f1f1f1);
+    background: -o-linear-gradient(#f5f5f5, #f1f1f1);
+    background: -moz-linear-gradient(#f5f5f5, #f1f1f1);
+    background: linear-gradient(#f5f5f5, #f1f1f1);
+    background-color: #f1f1f1;
+}
 
 /*--首页开始--*/
 .top .container{
     height: 30px;
     line-height: 30px;
-    font-family: "宋体";
+    font-family: "Sim Sun";
     font-size: 12px;
     color: #666;
 }
 .top a{
-    font-family: "宋体";
+    font-family: "Sim Sun";
     font-size: 12px;
     color: #666;
 }
@@ -206,13 +213,13 @@ a {
     height: 17px;
     background-color: #106ac0;
     border-radius: 1em;
-    font-family:"新宋体";
+    font-family:"新Sim Sun";
     font-size: 12px;
     text-align: center;
 }
 .dd-itemsub a{
     font-size: 12px;
-    font-family: "宋体";
+    font-family: "Sim Sun";
     color: #c2d9f8;
 }
 .dd-arrow{
@@ -316,7 +323,7 @@ a {
     line-height: 45px;
     background: url(../images/main_tt.png) no-repeat;
     padding-left: 60px;
-    font-family: "Microsoft Ya Hei";
+    font-family: "Microsoft YaHei";
     font-size: 24px
 }
 .main-hd-link{
@@ -327,7 +334,7 @@ a {
     line-height: 45px;
 }
 .main-hd-link a{
-    color: #000000;
+    color: #000;
     font-family: "N Sim Sun";
     font-size: 12px;
 }
@@ -366,7 +373,7 @@ a {
     width: 122px;
     height: 40px;
     margin: 20px auto;
-    font: 16px "Microsoft Ya Hei";
+    font: 16px "Microsoft YaHei";
     text-align: center;
 }
 .item-text span:first-child{
@@ -413,7 +420,7 @@ a {
 }
 .others-text span:last-child{
     color: #181818;
-    font-family: "Microsoft Ya Hei";
+    font-family: "Microsoft YaHei";
     font-size: 16px;
 }
 .m-foods{
@@ -468,10 +475,76 @@ a {
 
 /*--购物车和结算页开始--*/
 .process{
+    position: relative;
     width: 489px;
     height: 86px;
-    background-color: chartreuse;
 }
-.process-text{
-    
+.process-box{
+    width: 86px;
+    height: 40px;
+}
+.pb1{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+.pb2{
+    position: absolute;
+    top: 25px;
+    left: 200px;
+}
+.pb3{
+    position: absolute;
+    top: 25px;
+    left: 380px;
+}
+.pb-number{
+    width: 19px;
+    height: 18px;
+    line-height: 18px;
+    margin: 0 auto;
+    background-color: #fff102;
+    border-radius: 50%;
+    text-align: center;
+    color: #1d7ad9;
+    font-size: 12px;
+    font-weight: bold;
+}
+.pb-text{
+    margin-top: 6px;
+    color: #fff102;
+    text-align: center;
+    font-size: 14px;
+}
+
+.process-line{
+    width: 168px;
+    height: 4px;
+    background-color: #fef001;
+}
+.pl1{
+    position: absolute;
+    top: 32px;
+    left: 70px;
+}
+.pl2{
+    position: absolute;
+    top: 32px;
+    left: 250px;
+}
+.section{
+    height: 252px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.section-hd{
+    height: 32px;
+    line-height: 32px;
+    text-indent: 1em;
+    font-size: 16px;
+}
+.section-bd{
+    background-color: yellow;
+    height: 100px;
+    padding: 24px 32px;
 }
