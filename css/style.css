@@ -54,7 +54,7 @@ a {
     margin: 0 auto;
 }
 
-/*--layout--*/
+/*--首页开始--*/
 .top .container{
     height: 30px;
     line-height: 30px;
@@ -139,7 +139,7 @@ a {
     position: relative;
     width: 190px;
 }
-.dt-title{
+.dt-title h3{
     display: inline-block;
     width: 190px;
     font-size: 16px;
@@ -147,9 +147,10 @@ a {
     color: #fff;
     text-align: center;
     line-height: 36px;
+    background: url(../images/triangle.png) no-repeat 152px 16px;
 }
-.dt img{
-    margin-left: 2px;
+.dt-title:hover .dd{
+    visibility: visible;
 }
 .nav-item li{
     float: left;
@@ -166,8 +167,11 @@ a {
     background-color: #4593fd;
 }
 .dd{
-    position: absolute;
-    top: 36px;
+    position: relative;
+    visibility: hidden;
+}
+.dd-active{
+    visibility: visible;
 }
 .dd li{
     width: 190px;
@@ -180,7 +184,7 @@ a {
 .dd li:first-child{
     border-top: none;
 }
-.dd div{
+.dd-item,.dd-itemsub{
     width: 168px;
     height: 18px;
     margin: 0 auto;
@@ -198,7 +202,7 @@ a {
 }
 .dd-special{
     display: inline-block;
-    width: 51px;
+    width: 52px;
     height: 17px;
     background-color: #106ac0;
     border-radius: 1em;
@@ -221,17 +225,18 @@ a {
     background: url(../images/dd_arrow.png) no-repeat;
 }
 .dd-side{
+    position: absolute;
+    top: 0;
+    left: 190px;
     width: 570px;
     min-height: 380px;
-    margin-left: 190px;
     padding: 0px 22px;
     background-color: #fff;
     border: 1px solid #e5e5e5;
     visibility: hidden;
-    position: relative;
     z-index: 2;
 }
-.dd:hover + .dd-side{
+.dd li:hover .dd-side{
     visibility: visible;
 }
 .dd-side dl{
@@ -414,6 +419,9 @@ a {
 .m-foods{
     margin-top: 16px;
 }
+/*--main end--*/
+
+/*--footer begin--*/
 #footer{
     width: 100%;
     height: 224px;
@@ -445,4 +453,25 @@ a {
 }
 .footer-tag img{
     padding-left: 24px;
+}
+/*--footer end--*/
+/*--首页结束--*/
+
+/*--产品分类开始--*/
+.sidebar .container{
+    width: 182px;
+    height: 836px;
+    background-color: #f3f3f3;
+    margin-left: 210px;
+}
+/*--产品分类结束--*/
+
+/*--购物车和结算页开始--*/
+.process{
+    width: 489px;
+    height: 86px;
+    background-color: chartreuse;
+}
+.process-text{
+    
 }
