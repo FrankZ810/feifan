@@ -60,20 +60,123 @@
                 收货信息
             </div>
             <div class="section-bd">
-                aaa
+                <dl class="clearfix">
+                    <dt class="fl">
+                        <span class="asterisk">*</span>
+                        选择地区：
+                    </dt>
+                    <dd class="fl">
+                        <select name="city">
+                            <option value="">北京市 海淀区 五环内</option>
+                        </select>
+                    </dd>
+                </dl>
+                <dl class="clearfix">
+                    <dt class="fl">
+                        <span class="asterisk">*</span>
+                        详细地址：
+                    </dt>
+                    <dd class="fl">
+                        <input class="address" type="text" placeholder="最多输入26个汉字">
+                    </dd>
+                </dl>
+                <dl class="clearfix">
+                    <dt class="fl">
+                        <span class="asterisk">*</span>
+                        收货人：
+                    </dt>
+                    <dd class="fl">
+                        <input class="consignee" type="text" placeholder="最多10个汉字">
+                    </dd>
+                </dl>
+                <dl class="clearfix">
+                    <dt class="fl">
+                        <span class="asterisk">*</span>
+                        手机：
+                    </dt>
+                    <dd class="fl">
+                        <input class="telephone" type="text" placeholder="如13452525625">
+                        或固定电话：
+                        <input class="code" type="text" placeholder="区号">
+                        -
+                        <input class="phone" type="text" placeholder="电话号码">
+                        -
+                        <input class="extension" type="text" placeholder="分机号（可选）">
+                    </dd>
+                </dl>
+                <div class="submit">
+                    <input class="confirm" type="button" value="确认收货地址">
+                </div>
             </div>
         </div>
         <div class="section pay">
-            <div class="gradient"></div>
+            <div class="section-hd gradient">
+                支付方式
+            </div>
+            <div class="section-bd">
+                <div class="line">
+                    <label for="wechat">
+                        <input type="radio" name="pay" id="wechat">
+                        微信支付
+                    </label>
+                    <span class="wechat">
+                        用微信扫一扫就能支付！
+                    </span>
+                </div>
+                <div class="line">
+                    <label for="cash">
+                        <input type="radio" name="pay" id="cash">
+                        货到付款
+                    </label>
+                    <span class="pay-txt">
+                        送货上门后再付款，使用现金或刷银行卡。
+                    </span>
+                </div>
+            </div>
         </div>
         <div class="section invoice">
-            <div class="gradient"></div>
+            <div class="section-hd gradient">
+                发票信息
+            </div>
+            <div class="section-bd">
+                <div class="line">
+                    <input type="checkbox" checked>
+                    需要发票
+                </div>
+                <dl class="clearfix">
+                    <dt class="fl">
+                        <span class="asterisk">*</span>
+                        发票类型：
+                    </dt>
+                    <dd class="fl">
+                        <select name="city">
+                            <option value="">商业零售发票</option>
+                        </select>
+                    </dd>
+                </dl>
+                <dl class="clearfix">
+                    <dt class="fl">
+                        <span class="asterisk">*</span>
+                        发票抬头：
+                    </dt>
+                    <dd class="fl">
+                        <select name="city">
+                            <option value="">个人</option>
+                        </select>
+                        <input type="text" placeholder="阿斯顿">
+                    </dd>
+                </dl>
+                <div class="submit">
+                    <input class="save" type="button" value="保存">
+                    <input class="cancel" type="button" value="取消">
+                </div>
+            </div>
         </div>
         <div class="section delivery">
-            <div class="gradient"></div>
+            <div class="section-hd gradient"></div>
         </div>
         <div class="section settle">
-            <div class="gradient"></div>
+            <div class="section-hd gradient"></div>
         </div>
     </div>
 </div>

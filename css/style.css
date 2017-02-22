@@ -21,7 +21,6 @@ li {
     list-style: none;
 }
 input, select, textarea {
-    outline: none;
     border: none;
 }
 textarea {
@@ -466,10 +465,12 @@ a {
 
 /*--产品分类开始--*/
 .sidebar .container{
+    position: relative;
+    right: 400px;
+    z-index: -1;
     width: 182px;
     height: 836px;
     background-color: #f3f3f3;
-    margin-left: 210px;
 }
 /*--产品分类结束--*/
 
@@ -533,7 +534,6 @@ a {
     left: 250px;
 }
 .section{
-    height: 252px;
     margin-top: 20px;
     border: 1px solid #ccc;
 }
@@ -545,6 +545,89 @@ a {
 }
 .section-bd{
     background-color: yellow;
-    height: 100px;
     padding: 24px 32px;
+}
+.section-bd dl{
+    width: 568px;
+    height: 38px;
+    line-height: 38px;
+    color: #444444;
+    font-family: "Sim Sun";
+    font-size: 12px;
+}
+.section-bd dt{
+    width: 72px;
+    text-align: right;
+}
+.asterisk{
+    color: #ff0000;
+}
+.section-bd select,.section-bd input[type="text"]{
+    height: 22px;
+    border: 1px solid #c2c2c2;
+}
+.section-bd input[type="text"]{
+    text-indent: 4px;
+}
+.address{
+    width: 390px;
+}
+.consignee,.telephone{
+    width: 112px;
+}
+.code{
+    width: 64px;
+}
+.phone{
+    width: 98px;
+}
+.extension{
+    width: 96px;
+}
+.submit .confirm{
+    width: 114px;
+    height: 28px;
+    background-color: #4290fb;
+    color: #fff;
+    margin-top: 8px;
+    margin-left: 72px;
+}
+.section-bd .line{
+    width: 450px;
+    height: 22px;
+    line-height: 22px;
+    color: #444444;
+    font-size: 12px;
+}
+.section-bd .line:first-child{
+    padding-bottom: 38px;
+}
+.line input[type="radio"],.line input[type="checkbox"]{
+    position: relative;
+    top: 2px;
+}
+.wechat,.pay-txt{
+    display: inline-block;
+    width: 300px;
+    height: 25px;
+}
+.wechat{
+    background: url(../images/wechat.png) no-repeat 20px 0;
+    padding-left: 54px;
+}
+.pay-txt{
+    padding-left: 20px;
+}
+.submit .save,.submit .cancel{
+    width: 66px;
+    height: 28px;
+    background-color: #4290fb;
+    color: #fff;
+    margin-top: 8px;
+    margin-left: 72px;
+}
+.submit .cancel{
+    margin-left: 10px;
+    background-color: #f5f5f5;
+    color: #444444;
 }
