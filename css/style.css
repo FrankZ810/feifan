@@ -372,7 +372,6 @@ a {
     width: 122px;
     height: 40px;
     margin: 20px auto;
-    font: 16px "Microsoft YaHei";
     text-align: center;
 }
 .item-text span:first-child{
@@ -544,7 +543,6 @@ a {
     font-size: 16px;
 }
 .section-bd{
-    background-color: yellow;
     padding: 24px 32px;
 }
 .section-bd dl{
@@ -593,7 +591,6 @@ a {
     margin-left: 72px;
 }
 .section-bd .line{
-    width: 450px;
     height: 22px;
     line-height: 22px;
     color: #444444;
@@ -630,4 +627,131 @@ a {
     margin-left: 10px;
     background-color: #f5f5f5;
     color: #444444;
+}
+.return{
+    color: #3377ff;
+    font-size: 12px;
+    margin-right: 15px;
+}
+.d-goods{
+    width: 350px;
+    padding-left: 32px;
+}
+.d-price,.d-cash,.d-quantity,.d-sum{
+    width: 160px;
+    text-align: center;
+}
+.section-bd .d-line{
+    height: 22px;
+    color: #444444;
+    font-size: 12px;
+    margin: 0px -32px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.d-item{
+    position: relative;
+    padding: 10px 0 10px 32px;
+    margin: 0px -32px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.i-goods{
+    width: 318px;
+    position: relative;
+}
+.i-goods img{
+    margin-right: 32px;
+    width: 80px;
+    height: 80px;
+}
+.g-tt a{
+    color: #444444;
+    font-size: 12px;
+    position: absolute;
+}
+.g-gift{
+    margin-top: 18px;
+}
+.g-gift a{
+    color: #000;
+    font-size: 12px;
+    position: absolute;
+    top: 60px;
+}
+.g-price,.g-cash,.g-quantity,.g-sum{
+    width: 160px;
+    text-align: center;
+    color: #444444;
+    font-size: 12px;
+}
+.g-sum{
+    color: #d70000;
+}
+.gift-sum{
+    color: #444444;
+    font-size: 12px;
+    position: absolute;
+    top: 70px;
+    right: 243px;
+}
+.d-other{
+    height: 186px;
+}
+.o-special{
+    padding: 14px 0 36px;
+}
+.o-special a{
+    color: #3377ff;
+    font-size: 12px;
+}
+.o-remind{
+    color: #ee0000;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.btn-remind{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(../images/remind.png) no-repeat 0px 0px;
+    padding-right: 20px;
+}
+.g-amount div{
+    color: #444444;
+    font-size: 12px;
+}
+.g-amount div:first-child{
+    position: absolute;
+    top: 25px;
+    left: 112px;
+}
+.g-amount div:last-child{
+    position: absolute;
+    top: 50px;
+    left: 112px;
+}
+.total{
+    height: 96px;
+}
+.txt-red{
+    color: #d70000;
+}
+.total-price{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.total-price span:first-child{
+    color: #444444;
+    font-size: 12px;
+}
+.total-price span:last-child{
+    font-size: 16px;
+}
+.btn-total input{
+    width: 120px;
+    height: 35px;
+    background-color: #e50007;
+    color: #fff;
+    font-size: 16px;
 }
